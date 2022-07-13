@@ -9,10 +9,8 @@
         <relativePath/> <!-- lookup parent from com.example.movie.repository -->
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.example</groupId>
-    <artifactId>employee-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+
+    <artifactId>movie-catalog-service</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -32,6 +30,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -61,6 +63,12 @@
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>
@@ -73,8 +81,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-
     <build>
         <plugins>
             <plugin>

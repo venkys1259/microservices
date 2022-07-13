@@ -11,6 +11,9 @@
     <modules>
         <module>discovery-server</module>
         <module>employee-service</module>
+        <module>ratings-data-service</module>
+        <module>movie-info-service</module>
+        <module>movie-catalog-service</module>
     </modules>
 
     <properties>

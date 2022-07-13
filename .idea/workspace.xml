@@ -4,47 +4,70 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18da7864-e8d9-4884-95a7-1929c497f297" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/example/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/target/classes/com/example/discoveryserver/DiscoveryServerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/example/springboot/EmployeeServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/example/springboot/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/example/springboot/exception/ErrorDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/example/springboot/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/example/springboot/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/example/springboot/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/java/com/example/springboot/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/classes/com/example/springboot/EmployeeServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/classes/com/example/springboot/controller/EmployeeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/classes/com/example/springboot/exception/ErrorDetails$ValidationError.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/classes/com/example/springboot/exception/ErrorDetails.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/classes/com/example/springboot/exception/GlobalExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/classes/com/example/springboot/exception/ResourceNotFoundException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/classes/com/example/springboot/model/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee-service/target/classes/com/example/springboot/repository/EmployeeRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="18da7864-e8d9-4884-95a7-1929c497f297" name="Changes" comment="pom.xml issue fixed">
+      <change afterPath="$PROJECT_DIR$/movie-catalog-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/com/example/catalog/MovieCatalogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/com/example/catalog/controller/MovieCatalogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/com/example/catalog/exception/ErrorDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/com/example/catalog/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/com/example/catalog/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/com/example/catalog/model/CatalogItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/com/example/catalog/model/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/com/example/catalog/model/MovieSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/com/example/catalog/model/Rating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/com/example/catalog/model/UserRating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-info-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-info-service/src/main/java/com/example/movie/MovieInfoServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-info-service/src/main/java/com/example/movie/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-info-service/src/main/java/com/example/movie/exception/ErrorDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-info-service/src/main/java/com/example/movie/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-info-service/src/main/java/com/example/movie/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-info-service/src/main/java/com/example/movie/model/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-info-service/src/main/java/com/example/movie/model/MovieSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-info-service/src/main/java/com/example/movie/repository/MovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-info-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ratings-data-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ratings-data-service/src/main/java/com/example/ratings/RatingsDataServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ratings-data-service/src/main/java/com/example/ratings/controller/RatingsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ratings-data-service/src/main/java/com/example/ratings/exception/ErrorDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ratings-data-service/src/main/java/com/example/ratings/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ratings-data-service/src/main/java/com/example/ratings/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ratings-data-service/src/main/java/com/example/ratings/model/Rating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ratings-data-service/src/main/java/com/example/ratings/model/UserRating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ratings-data-service/src/main/java/com/example/ratings/repository/RatingsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ratings-data-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/target/classes/com/example/discoveryserver/DiscoveryServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/target/classes/com/example/discoveryserver/DiscoveryServerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,21 +82,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/movie-catalog-service/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\microservices\employee-service\src\main\resources" />
-      <recent name="C:\microservices\employee-service\src\main\java" />
-      <recent name="C:\microservices\discovery-server\src\main\resources" />
-      <recent name="C:\microservices\discovery-server\src\main\java" />
-      <recent name="C:\microservices\discovery-server\src" />
+      <recent name="C:\microservices\movie-catalog-service\src\main\resources" />
+      <recent name="C:\microservices\movie-catalog-service\src\main\java\com\example\catalog" />
+      <recent name="C:\microservices\movie-info-service\src\main\resources" />
+      <recent name="C:\microservices\movie-info-service\src\main\java" />
+      <recent name="C:\microservices" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DiscoveryServerApplication">
+  <component name="RunManager" selected="Application.MovieCatalogApplication">
     <configuration name="DiscoveryServerApplication" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.example.discoveryserver.DiscoveryServerApplication" />
       <module name="discovery-server" />
@@ -100,6 +125,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MovieCatalogApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.catalog.MovieCatalogApplication" />
+      <module name="movie-catalog-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.catalog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieInfoServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.movie.MovieInfoServiceApplication" />
+      <module name="movie-info-service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RatingsDataServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ratings.RatingsDataServiceApplication" />
+      <module name="ratings-data-service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,8 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EmployeeServiceApplication" />
+        <item itemvalue="Application.MovieCatalogApplication" />
+        <item itemvalue="Application.RatingsDataServiceApplication" />
         <item itemvalue="Application.DiscoveryServerApplication" />
+        <item itemvalue="Application.MovieInfoServiceApplication" />
+        <item itemvalue="Application.EmployeeServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -127,6 +182,35 @@
       <option name="presentableId" value="Default" />
       <updated>1657332537638</updated>
     </task>
+    <task id="LOCAL-00001" summary="Microservices Basic Template">
+      <created>1657417015698</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657417015698</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Jenkins File">
+      <created>1657481613714</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657481613714</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Jenkins File">
+      <created>1657482161129</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657482161129</updated>
+    </task>
+    <task id="LOCAL-00004" summary="pom.xml issue fixed">
+      <created>1657502716020</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657502716020</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,5 +223,29 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Microservices Basic Template" />
+    <MESSAGE value="Added Jenkins File" />
+    <MESSAGE value="pom.xml issue fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom.xml issue fixed" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ratings-data-service/src/main/java/com/example/ratings/controller/RatingsController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="NONE" type="java-field">
+          <url>file://$PROJECT_DIR$/movie-info-service/src/main/java/com/example/movie/controller/MovieController.java</url>
+          <line>16</line>
+          <log-expression expression="    public ResponseEntity&lt; Rating &gt; getMovieRatingById(@PathVariable(value = &quot;movieId&quot;) Long movieId)&#10;            throws ResourceNotFoundException {&#10;        Rating rating = ratingsRepository.findById(movieId)&#10;                .orElseThrow(() -&gt; new ResourceNotFoundException(&quot;Movie Rating not found for this id :: &quot; + movieId));&#10;        return ResponseEntity.ok().body(rating);&#10;    }&#10;    @PostMapping(&quot;/ratings&quot;)&#10;    public Rating createRating(@RequestBody Rating rating) {&#10;        return ratingsRepository.save(rating);&#10;    }&#10;&#10;    @RequestMapping(&quot;/user/{userId}&quot;)&#10;    public UserRating getUserRatings(@PathVariable(&quot;userId&quot;) Integer userId) {&#10;        UserRating userRating = new UserRating();&#10;        userRating.initData(userId);&#10;        return userRating;&#10;&#10;    }" language="JAVA" />
+          <properties field="ratingsRepository" class="controller.MovieController" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
